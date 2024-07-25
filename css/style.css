@@ -1,0 +1,98 @@
+/**
+
+INFO PENGGUNAAN
+- Untuk penggunaan native diawali ntv supaya lebih mudah membedakan penggunaan bootstrap 5 & native
+  contoh: ntv-bg-color, ntv-z-index, ntv-webkit, dll
+- Di file ini juga terdapat class bawaan bootstrap 5 hanya ditambah sedikit perubahan
+  contoh: dropdown, dropdown-menu, carousel, dll
+
+**/
+
+/* TABLE - PASIEN */
+.table {
+    max-width: none;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* ALL */
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* BG PRIMARY COLOR */
+.ntv-bg-color {
+    background-color: #149848;
+}
+
+/* Z-INDEX */
+.ntv-z-index {
+    z-index: 1;
+}
+
+/* TEXT ALIGN JUSTIFY */
+.ntv-text-justify {
+    text-align: justify;
+}
+
+/* TEXT HOVER GREEN */
+.ntv-text-hover:hover {
+    color: #149848;
+}
+
+/* LINK */
+.ntv-link {
+    text-decoration: none;
+}
+
+/* TEXT LIMIT LENGHT*/
+.ntv-webkit {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Jumlah batas baris pada text*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* BUTTON */
+.ntv-button {
+    border-radius: 25px;
+}
+
+.ntv-button:hover {
+    color: white;
+    background-color: #149848;
+}
+
+/***** CLASS KHUSUS *****/
+
+/***** DROPDOWN MENU ~ INCLUDE-NAVBAR.PHP *****/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+/***** CAROUSEL ~ INDEX.PHP *****/
+.overlay-image {
+    background-size: cover;
+}
+.carousel-item {
+    background-color: #000;
+}
+
+.hover-img:hover {
+    opacity: 0.8;
+}
+
+/***** FASILITAS *****/
+.ntv-tgl-kecil {
+    font-size: smaller;
+}
