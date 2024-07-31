@@ -18,4 +18,5 @@ menggunakan html, php, javascript, bootstrap5 sebagai framework css
 - Halaman Form Pendaftaran
 
 ## Kontributor ✨
-- Ahmad Refi Zaini (beranda, about us, visi misi,  
+- Ahmad Refi Zaini
+- Adzka Jaisy Kahfi
